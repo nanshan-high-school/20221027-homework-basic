@@ -1,0 +1,18 @@
+//備註:失敗品，無法成功做出成品
+#include <iostream>
+using namespace std;
+int main() {
+    int height;
+    cout << "請輸入高度:";
+    cin >> height;
+    int starnumber;
+    starnumber = 0;
+    while (int starnumber = height) {
+        cout << "*";
+        cout << starnumber;
+        starnumber ++;
+    if (starnumber > height){
+        break;
+    }
+    }
+}
