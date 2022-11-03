@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "請輸入高度";
+    
+    int Star;
+    cin　>> Star;
+    int a = 0;
+
+    for(int time = Star;time > 0;time --){
+        a++;
+        for(int time = Star - 1;time > 0;time--){
+            cout << " ";
+            }
+        
+        for(int time = a;time > 0;time--){
+            cout << "*";
+            }
+        
+        cout << " ";
+
+        for(int time = a;time > 0;time--){
+            cout << "*";
+            }
+        Star--;
+        cout << "\n";
+        }
+}
